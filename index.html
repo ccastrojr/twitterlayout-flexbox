@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <link rel="stylesheet" href="./css/style.css">
+
+      <title>Twitter Layout</title>
+   </head>
+
+   <body>
+      <header id="main-header">
+         <div class="content">
+            <nav>
+               <ul>
+                  <li><i class="icon home"></i> Home</li>
+                  <li><i class="icon notification"></i> Notifications</li>
+                  <li><i class="icon message"></i> Messages</li>
+               </ul>
+            </nav>
+            
+            <div class="brand-logo"></div>
+            
+            <div class="search-area">
+               <input type="text" placeholder="Search on Twitter">
+               <img src="./images/avatar.png" alt="User avatar" class="user-avatar">
+               <button>Tweet</button>
+            </div>
+         </div>
+      </header>
+
+      <div class="banner">
+         <div class="banner-content">
+            <h1>Twitter Layout with Flexbox</h1>
+            <h3>Developed by <a href="https://www.linkedin.com/in/ccastrojr" target="_blank">Cláudio Castro Jr</a></h3>
+         </div>
+      </div>
+
+      <div class="user-details-bar">
+         <div class="content">
+         	<ul>
+         	   <li class="active">
+         	      <span>Tweets</span>
+         	      <strong>1892</strong>
+         	   </li>
+         	   <li>
+         	      <span>Followings</span>
+         	      <strong>547</strong>
+         	   </li>
+         	   <li>
+         	      <span>Followers</span>
+         	      <strong>422</strong>
+         	   </li>
+         	   <li>
+         	      <span>Favorities</span>
+         	      <strong>204</strong>
+         	   </li>
+         	   <li>
+         	      <span>Lists</span>
+         	      <strong>5</strong>
+         	   </li>
+         	   <li>
+         	      <span>Moments</span>
+         	      <strong>2</strong>
+         	   </li>
+         	</ul>
+         
+         	<div class="actions">
+         	   <button>Follow</button>
+         	   <i class="icon dots"></i>
+         	</div>
+         </div>
+      </div>
+
+      <div class="wrapper-content content">
+         <aside class="profile">
+            <img class="avatar" src="./images/avatar.png" alt="Cláudio Castro">
+            <h1>Cláudio Castro</h1>
+            <span>@claudiotopp</span>
+            <p>Web developer, Information System student and Flamenguista.</p>
+
+            <ul class="user-information">
+               <li><i class="icon location"></i>São Luís, Maranhão</li>
+               <li><i class="icon link"></i><a href="https://www.github.com/ccastrojr" target="_blank">GitHub</a></li>
+               <li><i class="icon since"></i>Joined April 2018</li>
+               <li><i class="icon born"></i>Born the 4th of December 1996</li>
+            </ul>
+
+            <div class="widget followers">
+               <strong><i class="icon user"></i>78 followers that you know</strong>
+
+               <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+               </ul>
+            </div>
+
+            <div class="widget images">
+               <strong><i class="icon image-gallery"></i>168 photos and videos</strong>
+
+               <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+               </ul>
+            </div>
+         </aside>
+
+         <section class="timeline">
+            <nav class="menu-timeline">
+               <ul>
+                  <li><a href="" class="active">Tweets</a></li>
+                  <li><a href="">Tweets and Replies</a></li>
+                  <li><a href="">Media</a></li>
+               </ul>
+            </nav>
+
+            <div class="tweets">
+               <ul>
+                  <li class="tweet">
+                     <img src="./images/other-user.png" alt="Avatar">
+                     <div class="user-tweet">
+                        <strong>Other user <span>@iam_otheruser</span></strong>
+                        <p>Hello guys I'm having a nice evening with <span>@iam_apie</span></p>
+                        <div class="actions">
+                           <a href=""><i class="icon comment"></i></a>
+                           <a href=""><i class="icon retweet"></i></a>
+                           <a href=""><i class="icon like"></i></a>
+                           <a href=""><i class="icon message"></i></a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="tweet">
+                     <img src="./images/its-a-lot-users-here.png" alt="Avatar">
+                     <div class="user-tweet">
+                        <strong>One More user <span>@onemore_user</span></strong>
+                        <p>Flamengo it's a great team</p>
+                        <div class="actions">
+                           <a href=""><i class="icon comment"></i></a>
+                           <a href=""><i class="icon retweet"></i></a>
+                           <a href=""><i class="icon like"></i></a>
+                           <a href=""><i class="icon message"></i></a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="tweet">
+                     <img src="./images/ok-this-is-a-pie.png" alt="Avatar">
+                     <div class="user-tweet">
+                        <strong>Pie <span>@iam_apie</span></strong>
+                        <p>I'm a pie lol</p>
+                        <div class="actions">
+                           <a href=""><i class="icon comment"></i></a>
+                           <a href=""><i class="icon retweet"></i></a>
+                           <a href=""><i class="icon like"></i></a>
+                           <a href=""><i class="icon message"></i></a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="tweet">
+                     <img src="./images/one-more-user.png" alt="Avatar">
+                     <div class="user-tweet">
+                        <strong>Older user <span>@iam_older</span></strong>
+                        <p>In my time it's was different</p>
+                        <div class="actions">
+                           <a href=""><i class="icon comment"></i></a>
+                           <a href=""><i class="icon retweet"></i></a>
+                           <a href=""><i class="icon like"></i></a>
+                           <a href=""><i class="icon message"></i></a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="tweet">
+                     <img src="./images/other-user.png" alt="Avatar">
+                     <div class="user-tweet">
+                        <strong>Other user <span>@iam_otheruser</span></strong>
+                        <p>Hello guys I'm here again</p>
+                        <div class="actions">
+                           <a href=""><i class="icon comment"></i></a>
+                           <a href=""><i class="icon retweet"></i></a>
+                           <a href=""><i class="icon like"></i></a>
+                           <a href=""><i class="icon message"></i></a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="tweet">
+                     <img src="./images/ok-this-is-a-pie.png" alt="Avatar">
+                     <div class="user-tweet">
+                        <strong>Pie <span>@iam_apie</span></strong>
+                        <p>Lol I'm a pie and have a Twitter Acount</p>
+                        <div class="actions">
+                           <a href=""><i class="icon comment"></i></a>
+                           <a href=""><i class="icon retweet"></i></a>
+                           <a href=""><i class="icon like"></i></a>
+                           <a href=""><i class="icon message"></i></a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="tweet">
+                     <img src="./images/its-a-lot-users-here.png" alt="Avatar">
+                     <div class="user-tweet">
+                        <strong>One More User <span>@onemore_user</span></strong>
+                        <p>Flamengo</p>
+                        <div class="actions">
+                           <a href=""><i class="icon comment"></i></a>
+                           <a href=""><i class="icon retweet"></i></a>
+                           <a href=""><i class="icon like"></i></a>
+                           <a href=""><i class="icon message"></i></a>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+
+         <aside class="widgets">
+            <div class="widget follow">
+               <div class="title">
+                  <strong>Who to follow</strong>
+                  <a href="">Refresh</a>
+                  <a href="">View all</a>
+               </div>
+
+               <ul>
+                  <li>
+                     <div class="profile">
+                        <div class="avatar"></div>
+                        <div class="info">
+                           <strong>Spade <span>@user.spade</span></strong>
+                           <button>Follow</button>
+                        </div>
+                     </div>
+                     <a href=""><i class="icon close"></i></a>
+                  </li>
+                  <li>
+                     <div class="profile">
+                        <div class="avatar"></div>
+                        <div class="info">
+                           <strong>Spade <span>@user.spade</span></strong>
+                           <button>Follow</button>
+                        </div>
+                     </div>
+                     <a href=""><i class="icon close"></i></a>
+                  </li>
+                  <li>
+                     <div class="profile">
+                        <div class="avatar"></div>
+                        <div class="info">
+                           <strong>Spade <span>@user.spade</span></strong>
+                           <button>Follow</button>
+                        </div>
+                     </div>
+                     <a href=""><i class="icon close"></i></a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="widget trends">
+               <div class="title">
+                  <strong>Trends</strong>
+                  <a href="">Change</a>
+               </div>
+
+               <ul>
+                  <li>
+                     <a href="">#Flamengo</a>
+                  </li>
+                  <li>
+                     <a href="">#Sports</a>
+                  </li>
+                  <li>
+                     <a href="">#BrunoHenrique</a></li>
+                  <li>
+                     <a href="">#Gol</a>
+                  </li>
+                  <li>
+                     <a href="">#Mengao</a>
+                  </li>
+                  <li>
+                     <a href="">#Arrascaeta</a>
+                  </li>
+                  <li>
+                     <a href="">#Gabigol</a>
+                  </li>
+                  <li>
+                     <a href="">#5x0</a>
+                  </li>
+                  <li>
+                     <a href="">#Flexbox</a>
+                  </li>
+               </ul>
+            </div>
+         </aside>
+      </div>
+   </body>
+</html>
